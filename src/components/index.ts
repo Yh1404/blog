@@ -1,7 +1,6 @@
 import type { App, Component } from "vue"
 
 import MessageVue from "./Message.vue"
-import SelectVue from "./Select.vue"
 import AvatarVue from "./Avatar.vue"
 
 export interface ComponentsList {
@@ -10,7 +9,6 @@ export interface ComponentsList {
 
 const components: ComponentsList = {
     Message: MessageVue,
-    Select: SelectVue,
     Avatar: AvatarVue,
 }
 
