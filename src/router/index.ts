@@ -2,8 +2,6 @@ import { createRouter, createWebHistory } from "vue-router"
 
 const HomeView = () => import("../views/HomeView.vue")
 const SonView = () => import("../views/SonView.vue")
-const AutoChartViewVue = () => import("@/views/autoChartView.vue")
-const EditChart = () => import("@/views/autoChartView.vue")
 
 const router = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
