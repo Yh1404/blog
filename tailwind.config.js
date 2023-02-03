@@ -19,6 +19,22 @@ module.exports = {
 
             'sm': { 'max': '639px' },
             // => @media (max-width: 639px) { ... }
+        },
+        extend: {
+            keyframes: {
+                appear: {
+                    '0%, 25%': { opacity: 0 },
+                    '100%': { opacity: 100 }
+                },
+                out: {
+                    '0%': { opacity: 100, position: 'relative', left: 0 },
+                    '100%': { opacity: 10, left: '-3999px', position: 'relative' }
+                }
+            },
+            animation: {
+                appear: 'appear 1s ease-in-out',
+                out: 'out .5s ease-in-out'
+            }
         }
     },
     plugins: [],

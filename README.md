@@ -1,6 +1,6 @@
 # hao yang
 
-This template should help get you started developing with Vue 3 in Vite.
+the blog is developed with vue3 + vite + vueRouter + typescript + tailwindcss
 
 ## Recommended IDE Setup
 
